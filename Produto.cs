@@ -1,0 +1,13 @@
+﻿
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks
+
+public class Produto
+{
+    public int Id { get; set; }
+    public string Nome { get; set; }
+    public string Categoria { get; set; }
+    public decimal Preco { get; set; }
+}
+
